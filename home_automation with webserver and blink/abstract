@@ -1,0 +1,7 @@
+Abstract
+
+Home automation systems improve comfort, convenience, and energy efficiency by allowing household appliances to be controlled remotely. However, many existing solutions depend entirely on internet connectivity and stop working during network outages. This project presents a dual-mode smart home automation system that switches between online and offline operation to provide reliable control under all network conditions.
+
+In online mode, the system connects to the Blynk IoT cloud platform, allowing users to monitor and control appliances from anywhere through a smartphone application. When internet access is unavailable, the system automatically falls back to offline mode, where the microcontroller hosts a local web server. Users connected to the same Wi-Fi network can then control the appliances through a web page in any browser, without needing cloud services. Appliance states remain synchronized between the two modes, so the user always sees the correct status of each device.
+
+The system uses relay modules to switch household loads and gives real-time feedback on device status. By combining cloud-based remote access with local web server control, the proposed design improves reliability, availability, and user convenience compared with systems that rely on a single control method. The solution is low-cost, easy to install, and scalable, making it suitable for smart homes, offices, and small-scale automation applications.
