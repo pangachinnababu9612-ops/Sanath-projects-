@@ -1,0 +1,9 @@
+Abstract
+
+Agriculture is the backbone of many economies, yet a large amount of irrigation water is wasted through manual and schedule-based watering. Farmers often have to be physically present in the field to switch the pump on and off, which is time-consuming and can lead to over-irrigation or crop stress. This project presents an IoT-based Smart Irrigation System built on the ESP8266 microcontroller that automates watering based on real-time field conditions and allows remote monitoring and control.
+
+The system uses a soil moisture sensor to measure the water content of the soil, a DHT11 sensor to measure temperature and humidity, and a rain sensor to detect rainfall. The ESP8266 processes these readings and switches the water pump motor on or off through a relay whenever the soil moisture drops below a preset threshold. If rain is detected, irrigation is automatically withheld to avoid wasting water. Using the ESP8266's built-in Wi-Fi, the sensor data is sent to the Blynk IoT platform, where the farmer can monitor field conditions in real time on a smartphone. The farmer can also switch between automatic and manual modes and turn the motor on or off remotely from anywhere.
+
+By combining automated decision-making with remote monitoring and control, the proposed system conserves water, reduces labor and energy costs, and supports better crop growth. The design is low-cost, easy to install, and scalable, making it suitable for small farms, gardens, and precision agriculture applications.
+
+Keywords: Smart irrigation, IoT, ESP8266, Blynk, soil moisture sensor, DHT11, rain sensor, precision agriculture, remote monitoring
